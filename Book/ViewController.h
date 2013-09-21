@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextViewDelegate,UIGestureRecognizerDelegate,UIScrollViewDelegate>
+{
+    UITextView* textView;
+    int currentPage;
+    int allPage;
+}
+
+// 书中的内容
+@property(nonatomic,strong) NSString* str;
+
 
 @end

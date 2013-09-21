@@ -19,6 +19,9 @@
 		1CFBD11517ED66AD006A93DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBD11417ED66AD006A93DE /* ViewController.m */; };
 		1CFBD11817ED66AD006A93DE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBD11617ED66AD006A93DE /* ViewController_iPhone.xib */; };
 		1CFBD11B17ED66AD006A93DE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBD11917ED66AD006A93DE /* ViewController_iPad.xib */; };
+		1CFBD12417ED6708006A93DE /* ai.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBD12117ED6708006A93DE /* ai.txt */; };
+		1CFBD12517ED6708006A93DE /* shinian.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBD12217ED6708006A93DE /* shinian.txt */; };
+		1CFBD12617ED6708006A93DE /* zuishuxidemoshengren.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1CFBD12317ED6708006A93DE /* zuishuxidemoshengren.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		1CFBD11417ED66AD006A93DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CFBD11717ED66AD006A93DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		1CFBD11A17ED66AD006A93DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		1CFBD12117ED6708006A93DE /* ai.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ai.txt; path = Book/ai.txt; sourceTree = "<group>"; };
+		1CFBD12217ED6708006A93DE /* shinian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shinian.txt; path = Book/shinian.txt; sourceTree = "<group>"; };
+		1CFBD12317ED6708006A93DE /* zuishuxidemoshengren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = zuishuxidemoshengren.txt; path = Book/zuishuxidemoshengren.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		1CFBD0EF17ED66AB006A93DE = {
 			isa = PBXGroup;
 			children = (
+				1CFBD12717ED6713006A93DE /* txt文件 */,
 				1CFBD10117ED66AB006A93DE /* Book */,
 				1CFBD0FA17ED66AB006A93DE /* Frameworks */,
 				1CFBD0F917ED66AB006A93DE /* Products */,
@@ -108,6 +115,16 @@
 				1CFBD11117ED66AC006A93DE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CFBD12717ED6713006A93DE /* txt文件 */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBD12117ED6708006A93DE /* ai.txt */,
+				1CFBD12217ED6708006A93DE /* shinian.txt */,
+				1CFBD12317ED6708006A93DE /* zuishuxidemoshengren.txt */,
+			);
+			name = "txt文件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +184,9 @@
 				1CFBD11217ED66AC006A93DE /* Default-568h@2x.png in Resources */,
 				1CFBD11817ED66AD006A93DE /* ViewController_iPhone.xib in Resources */,
 				1CFBD11B17ED66AD006A93DE /* ViewController_iPad.xib in Resources */,
+				1CFBD12417ED6708006A93DE /* ai.txt in Resources */,
+				1CFBD12517ED6708006A93DE /* shinian.txt in Resources */,
+				1CFBD12617ED6708006A93DE /* zuishuxidemoshengren.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
